@@ -1,0 +1,26 @@
+# robots.txt for babsikgu.co.kr
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://babsikgu.co.kr/sitemap.xml
+
+# Disallow admin or private directories (if any)
+Disallow: /admin/
+Disallow: /private/
+
+# Allow all major crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+User-agent: NaverBot
+Allow: /
+
+User-agent: Daumoa
+Allow: /
